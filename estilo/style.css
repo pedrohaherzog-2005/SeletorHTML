@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*
+   em HTML é id = em CSS é # (só pode um elemento)
+   em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #3c805e;
+    padding-top: 30px;
+    min-height: 80px;
+    text-align: center;
+}
+
+header h1#principal {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    max-width: 900px;
+    min-width: 700px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 15px;
+    height: 835px;
+    margin: auto;
+    left: 50%;
+    top: 80%;
+}
+
+main h1 {
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.193);
+    text-align: left;
+    padding: 5px;
+    color: #1e402f;
+}
+
+main h2 {
+    margin-top: 15px;
+    color: #3c805e;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+main p {
+    margin-top: 10px;
+    text-indent: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 1em;
+}
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12pt;
+    position: relative;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    bottom: -879px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #3c805e;
+}
